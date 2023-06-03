@@ -1,3 +1,4 @@
+
 .hero-img2{
     width: 100%;
     background: rgba(0,0,0, 0.5);
@@ -6,7 +7,7 @@
 }
 .hero-img2::before{
     content: "";
-    background: url("C:\Users\USER\OneDrive\Desktop\portfolioproject\client\src\assests\my2.png");
+    background: url("../assests/my2.png");
     background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;
