@@ -28,6 +28,9 @@ function Navbar() {
                 <Link to='/project'>Project</Link>
             </li>
             <li>
+                <Link to='/skill'>Skills</Link>
+            </li>
+            <li>
                 <Link to='/about'>About</Link>
             </li>
             <li>

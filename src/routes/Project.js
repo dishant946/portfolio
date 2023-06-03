@@ -3,6 +3,8 @@ import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import HeroImage2 from '../Components/HeroImage2';
 import Work from '../Components/Work';
+import HeroImage3 from '../Components/HeroImage3';
+import HeroImage from '../Components/HeroImage';
 function Project() {
   return (
     <>

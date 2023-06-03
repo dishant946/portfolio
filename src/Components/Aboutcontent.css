@@ -1,36 +1,93 @@
-.about{
-    width: 100%;
-    margin: 3rem 0;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    flex-wrap: wrap;
-    height: 100%;
-
-}
-.about .left{
+.resume {
+    padding: 60px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 15px auto;
+  }
+  
+  h2 {
+    font-size: 36px;
     text-align: center;
-    margin: auto;
-    padding: 1rem;
-    max-width: 350px;
-}
-.about .left p{
-    margin: 1.2rem 0;
-}
-
-.about .right{
-    max-width: 700px;
-
-}
-.right .img-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    position: relative;
-    align-items: center;
-    text-align: center;
-    grid-gap: 20px;
-}
-.right .img{
-border: 1px solid #333;
-width: 100%;
-}
+    margin-bottom: 40px;
+    color: #dad7d7;
+  }
+  
+  .resume-item {
+    margin-bottom: 60px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #dad7d7;
+  }
+  
+  .experience-item,
+  .education-item {
+    margin-bottom: 40px;
+  }
+  
+  h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #dad7d7;
+  }
+  
+  .position,
+  .degree,
+  .date {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #dad7d7;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #dad7d7;
+  }
+  .resume.light {
+    background-color: #dad7d7;
+  }
+  
+  .resume.light h2, .resume.light h3 {
+    color: #dad7d7;
+  }
+  
+  .resume.light h4 {
+    color: #dad7d7;
+  }
+  
+  .resume.light .position,
+  .resume.light .degree,
+  .resume.light .date {
+    color: #dad7d7;
+  }
+  
+  .resume.light .description {
+    color: #dad7d7;
+  }
+  
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 30px;
+    }
+    
+    h3 {
+      font-size: 20px;
+    }
+    
+    h4 {
+      font-size: 20px;
+    }
+    
+    .position,
+    .degree,
+    .date {
+      font-size: 16px;
+    }
+  }
+  

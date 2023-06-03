@@ -1,6 +1,6 @@
 import './Workcard.css';
 import React from 'react';
-import imdb from '../assests/imdb.png';
+
 import { NavLink } from 'react-router-dom';
 function Workcard(props) {
   return (

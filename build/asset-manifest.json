@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.82230a32.css",
-    "main.js": "/static/js/main.f1ab2ce0.js",
+    "main.css": "/static/css/main.6d5a29ef.css",
+    "main.js": "/static/js/main.e962f21c.js",
     "static/media/intro.jpg": "/static/media/intro.b5469b5fbaf5a462c795.jpg",
     "static/media/imdb.png": "/static/media/imdb.f84b751899670115e538.png",
     "static/media/food.png": "/static/media/food.59a33bd394d40496b61d.png",
     "static/media/spotify.png": "/static/media/spotify.1c846128e84a33eba24e.png",
+    "static/media/my2.png": "/static/media/my2.d4c67032fca1673d36ba.png",
     "static/media/ecomerce.png": "/static/media/ecomerce.6271758fd9153c2e771c.png",
-    "static/media/stack2.png": "/static/media/stack2.73cf06db8365f62cb324.png",
-    "static/media/stack1.png": "/static/media/stack1.1c247b7cc4fca808ead1.png",
-    "static/media/stack4.png": "/static/media/stack4.8e0f058a338c2ccc216b.png",
     "static/media/magic-note.png": "/static/media/magic-note.a724426356e474fdd737.png",
-    "static/media/stack3.png": "/static/media/stack3.2dfbdc95e53d9ca0b666.png",
+    "static/media/physics.png": "/static/media/physics.86c8d9eba03e29814d2a.png",
+    "static/media/nodejs.png": "/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/java.png": "/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/c-.png": "/static/media/c-.24a8f93854ab092f17a7.png",
+    "static/media/data-structure.png": "/static/media/data-structure.1b21e7eb60a28fc1adfc.png",
+    "static/media/c-document.png": "/static/media/c-document.1eedb55ee2b0b40bab91.png",
+    "static/media/html.png": "/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/express.svg": "/static/media/express.895f85252014f4b598c0c04f40cf7301.svg",
+    "static/media/mongo.svg": "/static/media/mongo.3beac5ba18197ccbdea6e2f53e18edcf.svg",
     "index.html": "/index.html",
-    "main.82230a32.css.map": "/static/css/main.82230a32.css.map",
-    "main.f1ab2ce0.js.map": "/static/js/main.f1ab2ce0.js.map"
+    "main.6d5a29ef.css.map": "/static/css/main.6d5a29ef.css.map",
+    "main.e962f21c.js.map": "/static/js/main.e962f21c.js.map"
   },
   "entrypoints": [
-    "static/css/main.82230a32.css",
-    "static/js/main.f1ab2ce0.js"
+    "static/css/main.6d5a29ef.css",
+    "static/js/main.e962f21c.js"
   ]
 }

@@ -1,19 +1,19 @@
 import React from 'react'
 import Navbar from '../Components/Navbar';
-import HeroImage from '../Components/HeroImage';
+import HeroImage2 from '../Components/HeroImage2';
+
 import Footer from '../Components/Footer';
-import Work from '../Components/Work';
+import Myskills from '../Components/Myskills';
 import Skill from '../Components/Skill';
-function Home() {
+function Skills() {
   return (
     <>
     <Navbar/>
-    <HeroImage/>
-    <Work/>
+    <HeroImage2 heading="Skills" text="Here is my some Skills" />
     <Skill/>
     <Footer/>
     </>
   )
 }
 
-export default Home
+export default Skills;

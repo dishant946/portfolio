@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa';
 import './Footer.css';
 function Footer() {
   return (
@@ -29,9 +29,10 @@ function Footer() {
                 <h4>About Me</h4>
                 <p>I am Dishant Soni . Currently I am a 3rd year Student at LDCE,Ahmedabad.I am open to work with startups. I am very passionate and enthusiastic about the MERN (mongodb , expressjs , reactjs ,nodejs) projects.My aim is to leverage our skills and knowledge to create innovative and robust web applications using this powerful technology stack.</p>
                 <div className='social'>
-                <FaFacebook size={20} style={{color:"white",marginRight:"1rem"}}/>   
-                <FaTwitter size={20} style={{color:"white",marginRight:"1rem"}}/>   
-                <FaLinkedin size={20} style={{color:"white",marginRight:"1rem"}}/>   
+                <a href="https://github.com/dishant946/" target='_blank'><FaGithub size={20} style={{color:"white",marginRight:"1rem"}}/></a> 
+                <a href="https://twitter.com/Dishant5671000" target="_blank"><FaTwitter size={20} style={{color:"white",marginRight:"1rem"}}/> </a>  
+                <a href="https://www.linkedin.com/in/dishant-soni-b32128226" target='_blank'><FaLinkedin size={20} style={{color:"white",marginRight:"1rem"}}/></a>   
+                <a href="https://www.instagram.com/dishantsoni6/" target='_blank'><FaInstagram size={20} style={{color:"white",marginRight:"1rem"}}/></a>   
                 </div>
             </div>
         </div>

@@ -1,37 +1,29 @@
 import { Link } from 'react-router-dom';
 import './Aboutcontent.css';
 import React from 'react';
-import stack1 from '../assests/stack1.png'
-import stack2 from '../assests/stack2.png'
-import stack3 from '../assests/stack3.png'
-import stack4 from '../assests/stack4.png';
+import myphoto from '../assests/my2.png';
 
 function Aboutcontent() {
   return (
-    <div className='about'>
-        <div className='left'>
-            <h1>Who Am I?</h1>
-            <p>I am a Mern Stack Developer with problem solving skills.
-            Intermidiate in Data Structure and algorithms. Practice on Leetcode,codechef.</p>
-            <Link to='/contact'><button className='btn'>Contact</button></Link>
-        </div>
-        <div className='right'>
-            <div className='img-container'>
-                <div className='img-stack top1'>
-                    <img src={stack1} alt="" className='img'/>
-                </div>
-                <div className='img-stack top2'>
-                    <img src={stack2} alt="" className='img'/>
-                </div>
-                <div className='img-stack top3'>
-                    <img src={stack3} alt="" className='img'/>
-                </div>
-                <div className='img-stack top4'>
-                    <img src={stack4} alt="" className='img'/>
-                </div>
-            </div>
-        </div>
+    <div className="container">
+    <h2>Hello from Dishant !!!</h2>
+    <div className="resume-item">
+      <h3>Experience</h3>
+      <p>No professional experience yet.</p>
     </div>
+    <div className="resume-item">
+      <h3>Education</h3>
+      <div className="education-item">
+        <h4>Adarsh Vidhayala, Patan</h4>
+        <p className="date">2018 - 2020</p>
+      </div>
+      <div className="education-item">
+        <h4>LD college of Engineering, Ahmedabad</h4>
+        <p className="degree">Bachelor of Engineering in Information Technology</p>
+        <p className="date">2020 - 2024</p>
+      </div>
+    </div>
+  </div>
   )
 }
 
